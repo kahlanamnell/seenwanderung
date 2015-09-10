@@ -33,13 +33,6 @@ namespace Xenio\Seenwanderung\Domain\Model;
 class VehicleStation extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity {
 
 	/**
-	 * departureTime
-	 *
-	 * @var \DateTime
-	 */
-	protected $departureTime = NULL;
-
-	/**
 	 * arrivalTime
 	 *
 	 * @var \DateTime
@@ -47,30 +40,18 @@ class VehicleStation extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity {
 	protected $arrivalTime = NULL;
 
 	/**
+	 * departureTime
+	 *
+	 * @var \DateTime
+	 */
+	protected $departureTime = NULL;
+
+	/**
 	 * waypoint
 	 *
 	 * @var \Xenio\Seenwanderung\Domain\Model\Waypoint
 	 */
 	protected $waypoint = NULL;
-
-	/**
-	 * Returns the departureTime
-	 *
-	 * @return \DateTime $departureTime
-	 */
-	public function getDepartureTime() {
-		return $this->departureTime;
-	}
-
-	/**
-	 * Sets the departureTime
-	 *
-	 * @param \DateTime $departureTime
-	 * @return void
-	 */
-	public function setDepartureTime(\DateTime $departureTime) {
-		$this->departureTime = $departureTime;
-	}
 
 	/**
 	 * Returns the arrivalTime
@@ -89,6 +70,25 @@ class VehicleStation extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity {
 	 */
 	public function setArrivalTime(\DateTime $arrivalTime) {
 		$this->arrivalTime = $arrivalTime;
+	}
+
+	/**
+	 * Returns the departureTime
+	 *
+	 * @return \DateTime $departureTime
+	 */
+	public function getDepartureTime() {
+		return $this->departureTime;
+	}
+
+	/**
+	 * Sets the departureTime
+	 *
+	 * @param \DateTime $departureTime
+	 * @return void
+	 */
+	public function setDepartureTime(\DateTime $departureTime) {
+		$this->departureTime = $departureTime;
 	}
 
 	/**

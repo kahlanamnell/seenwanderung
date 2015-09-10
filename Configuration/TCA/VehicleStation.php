@@ -6,10 +6,10 @@ if (!defined ('TYPO3_MODE')) {
 $GLOBALS['TCA']['tx_seenwanderung_domain_model_vehiclestation'] = array(
 	'ctrl' => $GLOBALS['TCA']['tx_seenwanderung_domain_model_vehiclestation']['ctrl'],
 	'interface' => array(
-		'showRecordFieldList' => 'sys_language_uid, l10n_parent, l10n_diffsource, hidden, departure_time, arrival_time, waypoint',
+		'showRecordFieldList' => 'sys_language_uid, l10n_parent, l10n_diffsource, hidden, arrival_time, departure_time, waypoint',
 	),
 	'types' => array(
-		'1' => array('showitem' => 'sys_language_uid;;;;1-1-1, l10n_parent, l10n_diffsource, hidden;;1, departure_time, arrival_time, waypoint, --div--;LLL:EXT:cms/locallang_ttc.xlf:tabs.access, starttime, endtime'),
+		'1' => array('showitem' => 'sys_language_uid;;;;1-1-1, l10n_parent, l10n_diffsource, hidden;;1, arrival_time, departure_time, waypoint, --div--;LLL:EXT:cms/locallang_ttc.xlf:tabs.access, starttime, endtime'),
 	),
 	'palettes' => array(
 		'1' => array('showitem' => ''),
@@ -97,9 +97,9 @@ $GLOBALS['TCA']['tx_seenwanderung_domain_model_vehiclestation'] = array(
 			),
 		),
 
-		'departure_time' => array(
+		'arrival_time' => array(
 			'exclude' => 1,
-			'label' => 'LLL:EXT:seenwanderung/Resources/Private/Language/locallang_db.xlf:tx_seenwanderung_domain_model_vehiclestation.departure_time',
+			'label' => 'LLL:EXT:seenwanderung/Resources/Private/Language/locallang_db.xlf:tx_seenwanderung_domain_model_vehiclestation.arrival_time',
 			'config' => array(
 				'dbType' => 'datetime',
 				'type' => 'input',
@@ -109,9 +109,9 @@ $GLOBALS['TCA']['tx_seenwanderung_domain_model_vehiclestation'] = array(
 				'default' => '0000-00-00 00:00:00'
 			),
 		),
-		'arrival_time' => array(
+		'departure_time' => array(
 			'exclude' => 1,
-			'label' => 'LLL:EXT:seenwanderung/Resources/Private/Language/locallang_db.xlf:tx_seenwanderung_domain_model_vehiclestation.arrival_time',
+			'label' => 'LLL:EXT:seenwanderung/Resources/Private/Language/locallang_db.xlf:tx_seenwanderung_domain_model_vehiclestation.departure_time',
 			'config' => array(
 				'dbType' => 'datetime',
 				'type' => 'input',

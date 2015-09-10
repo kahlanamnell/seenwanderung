@@ -50,30 +50,6 @@ class VehicleStationTest extends \TYPO3\CMS\Core\Tests\UnitTestCase {
 	/**
 	 * @test
 	 */
-	public function getDepartureTimeReturnsInitialValueForDateTime() {
-		$this->assertEquals(
-			NULL,
-			$this->subject->getDepartureTime()
-		);
-	}
-
-	/**
-	 * @test
-	 */
-	public function setDepartureTimeForDateTimeSetsDepartureTime() {
-		$dateTimeFixture = new \DateTime();
-		$this->subject->setDepartureTime($dateTimeFixture);
-
-		$this->assertAttributeEquals(
-			$dateTimeFixture,
-			'departureTime',
-			$this->subject
-		);
-	}
-
-	/**
-	 * @test
-	 */
 	public function getArrivalTimeReturnsInitialValueForDateTime() {
 		$this->assertEquals(
 			NULL,
@@ -91,6 +67,30 @@ class VehicleStationTest extends \TYPO3\CMS\Core\Tests\UnitTestCase {
 		$this->assertAttributeEquals(
 			$dateTimeFixture,
 			'arrivalTime',
+			$this->subject
+		);
+	}
+
+	/**
+	 * @test
+	 */
+	public function getDepartureTimeReturnsInitialValueForDateTime() {
+		$this->assertEquals(
+			NULL,
+			$this->subject->getDepartureTime()
+		);
+	}
+
+	/**
+	 * @test
+	 */
+	public function setDepartureTimeForDateTimeSetsDepartureTime() {
+		$dateTimeFixture = new \DateTime();
+		$this->subject->setDepartureTime($dateTimeFixture);
+
+		$this->assertAttributeEquals(
+			$dateTimeFixture,
+			'departureTime',
 			$this->subject
 		);
 	}

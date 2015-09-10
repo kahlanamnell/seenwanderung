@@ -190,7 +190,7 @@ $GLOBALS['TCA']['tx_seenwanderung_domain_model_vehicle'] = array(
 $GLOBALS['TCA']['tx_seenwanderung_domain_model_vehiclestation'] = array(
 	'ctrl' => array(
 		'title'	=> 'LLL:EXT:seenwanderung/Resources/Private/Language/locallang_db.xlf:tx_seenwanderung_domain_model_vehiclestation',
-		'label' => 'departure_time',
+		'label' => 'arrival_time',
 		'tstamp' => 'tstamp',
 		'crdate' => 'crdate',
 		'cruser_id' => 'cruser_id',
@@ -208,7 +208,7 @@ $GLOBALS['TCA']['tx_seenwanderung_domain_model_vehiclestation'] = array(
 			'starttime' => 'starttime',
 			'endtime' => 'endtime',
 		),
-		'searchFields' => 'departure_time,arrival_time,waypoint,',
+		'searchFields' => 'arrival_time,departure_time,waypoint,',
 		'dynamicConfigFile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($_EXTKEY) . 'Configuration/TCA/VehicleStation.php',
 		'iconfile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath($_EXTKEY) . 'Resources/Public/Icons/tx_seenwanderung_domain_model_vehiclestation.gif'
 	),

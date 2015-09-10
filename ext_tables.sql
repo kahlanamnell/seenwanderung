@@ -268,8 +268,8 @@ CREATE TABLE tx_seenwanderung_domain_model_vehiclestation (
 	uid int(11) NOT NULL auto_increment,
 	pid int(11) DEFAULT '0' NOT NULL,
 
-	departure_time datetime DEFAULT '0000-00-00 00:00:00',
 	arrival_time datetime DEFAULT '0000-00-00 00:00:00',
+	departure_time datetime DEFAULT '0000-00-00 00:00:00',
 	waypoint int(11) unsigned DEFAULT '0',
 
 	tstamp int(11) unsigned DEFAULT '0' NOT NULL,

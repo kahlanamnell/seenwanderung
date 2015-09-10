@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2015-09-10T16:49:06Z" product-name="seenwanderung">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-09-10T16:56:32Z" product-name="seenwanderung">
 		<header/>
 		<body>
 			<trans-unit id="tx_seenwanderung_domain_model_hiker">
@@ -126,11 +126,11 @@
 			<trans-unit id="tx_seenwanderung_domain_model_vehiclestation">
 				<source>Vehicle Station</source>
 			</trans-unit>
-			<trans-unit id="tx_seenwanderung_domain_model_vehiclestation.departure_time">
-				<source>Departure Time</source>
-			</trans-unit>
 			<trans-unit id="tx_seenwanderung_domain_model_vehiclestation.arrival_time">
 				<source>Arrival Time</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_vehiclestation.departure_time">
+				<source>Departure Time</source>
 			</trans-unit>
 			<trans-unit id="tx_seenwanderung_domain_model_vehiclestation.waypoint">
 				<source>Waypoint</source>

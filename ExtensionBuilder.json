@@ -626,9 +626,9 @@
                             "propertyDescription": "",
                             "propertyIsExcludeField": true,
                             "propertyIsRequired": false,
-                            "propertyName": "departureTime",
+                            "propertyName": "arrivalTime",
                             "propertyType": "NativeDateTime",
-                            "uid": "869030618076"
+                            "uid": "418044978979"
                         },
                         {
                             "allowedFileTypes": "",
@@ -636,9 +636,9 @@
                             "propertyDescription": "",
                             "propertyIsExcludeField": true,
                             "propertyIsRequired": false,
-                            "propertyName": "arrivalTime",
+                            "propertyName": "departureTime",
                             "propertyType": "NativeDateTime",
-                            "uid": "418044978979"
+                            "uid": "869030618076"
                         }
                     ]
                 },
@@ -777,7 +777,7 @@
         }
     ],
     "log": {
-        "last_modified": "2015-09-10 04:49",
+        "last_modified": "2015-09-10 04:56",
         "extension_builder_version": "6.2.0",
         "be_user": " (1)"
     }
