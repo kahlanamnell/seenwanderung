@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-09-10T16:49:06Z" product-name="seenwanderung">
+		<header/>
+		<body>
+			<trans-unit id="sex.description">
+				<source>sex</source>
+			</trans-unit>
+			<trans-unit id="first_name.description">
+				<source>firstName</source>
+			</trans-unit>
+			<trans-unit id="last_name.description">
+				<source>lastName</source>
+			</trans-unit>
+			<trans-unit id="birthday.description">
+				<source>birthday</source>
+			</trans-unit>
+			<trans-unit id="street.description">
+				<source>street</source>
+			</trans-unit>
+			<trans-unit id="street_number.description">
+				<source>streetNumber</source>
+			</trans-unit>
+			<trans-unit id="zip.description">
+				<source>zip</source>
+			</trans-unit>
+			<trans-unit id="city.description">
+				<source>city</source>
+			</trans-unit>
+			<trans-unit id="hiking_route.description">
+				<source>hikingRoute</source>
+			</trans-unit>
+			<trans-unit id="vehicle.description">
+				<source>vehicle</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

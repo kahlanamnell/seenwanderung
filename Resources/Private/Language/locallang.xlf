@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-09-10T16:49:06Z" product-name="seenwanderung">
+		<header/>
+		<body>
+			<trans-unit id="tx_seenwanderung_domain_model_hiker">
+				<source>Hiker</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_hiker.sex">
+				<source>Sex</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_hiker.first_name">
+				<source>First Name</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_hiker.last_name">
+				<source>Last Name</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_hiker.birthday">
+				<source>Birthday</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_hiker.street">
+				<source>Street</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_hiker.street_number">
+				<source>Street Number</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_hiker.zip">
+				<source>Zip</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_hiker.city">
+				<source>City</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_hiker.hiking_route">
+				<source>Hiking Route</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_hiker.vehicle">
+				<source>Vehicle</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_hikingroute">
+				<source>Hiking Route</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_hikingroute.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_hikingroute.code">
+				<source>Code</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_hikingroute.date">
+				<source>Date</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_hikingroute.weburl">
+				<source>Weburl</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_hikingroute.capacity">
+				<source>Capacity</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_hikingroute.note">
+				<source>Note</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_hikingroute.fee">
+				<source>Fee</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_hikingroute.fee_sparkasse">
+				<source>Fee Sparkasse</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_hikingroute.online_buchung">
+				<source>Online Buchung</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_hikingroute.waypoint_group_id">
+				<source>Waypoint Group Id</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_waypointgroup">
+				<source>Waypoint Group</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_waypointgroup.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_waypointgroup.stages">
+				<source>Stages</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_stage">
+				<source>Stage</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_stage.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_stage.distance_to_prev">
+				<source>Distance To Prev</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_stage.start">
+				<source>Start</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_stage.finish">
+				<source>Finish</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_stage.control">
+				<source>Control</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_stage.drink">
+				<source>Drink</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_stage.food">
+				<source>Food</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_stage.waypoint">
+				<source>Waypoint</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_waypoint">
+				<source>Waypoint</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_waypoint.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_vehicle">
+				<source>Vehicle</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_vehicle.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_vehicle.capacity">
+				<source>Capacity</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_vehicle.vehicle_station">
+				<source>Vehicle Station</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_vehiclestation">
+				<source>Vehicle Station</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_vehiclestation.departure_time">
+				<source>Departure Time</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_vehiclestation.arrival_time">
+				<source>Arrival Time</source>
+			</trans-unit>
+			<trans-unit id="tx_seenwanderung_domain_model_vehiclestation.waypoint">
+				<source>Waypoint</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
